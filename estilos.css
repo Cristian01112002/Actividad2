@@ -1,0 +1,107 @@
+#h1principal{
+    border: 3px solid rgb(127, 167, 185);
+    text-align: center;
+    opacity: 0.9;
+}
+
+
+#titulocr{
+color:rgb(75, 113, 236);
+
+}
+
+.barranav{
+    width: 70%;
+    margin:auto;
+    display:flex;
+    
+    height: 10px;
+    flex-direction:row;/* tipo de orden filas o columnas*/
+    justify-content: space-evenly;/*distribuye vert u hori dependiendo del valor de flex-direction*/
+    align-items:center;
+    flex-wrap: wrap;/*envolver los elementos en contenedor padre*/
+    align-content: space-between;
+ 
+ }
+ .nav1{
+    background-color: rgb(185, 212, 235);
+    text-align: center;
+    flex: 1 1 auto;
+    
+}
+.nav2{
+    background-color: rgb(240, 238, 127);
+    text-align: center;
+    flex: 1 1 auto;
+}
+.nav3{
+    background-color: rgb(185, 212, 235);
+    text-align: center;
+    flex: 1 1 auto;
+}
+.nav4{
+    background-color: rgb(240, 238, 127);
+    text-align: center;
+    flex: 1 1 auto;
+}
+.subtitulo{
+    color: rgb(75, 113, 236);
+}
+#tabla{
+    border: 3px solid rgb(127, 167, 185);
+}
+
+
+.container-card{
+    width: 350px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+    }
+    
+.card{
+    border-style:groove;
+    border-color: darkblue;
+    margin-top: 20px;
+    border-radius: 0.3rem;
+}
+.titulo,.subtitulo{
+    text-align: center;
+}
+.descrpcion{
+    text-align: justify;
+}
+.card-body{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+#imgcard{
+    width: 100%;
+}
+
+#final{
+    text-align: center;
+}
+
+
+ #infot1{
+    text-align: center;
+    flex: 1 1 auto;
+ }
+
+ .tarjeteros{
+    width: 100%;
+    margin:auto;
+    display:flex;
+    /* border: 2px solid blue; */
+    height: 1700px;
+    flex-direction:row;/* tipo de orden filas o columnas*/
+    justify-content: space-evenly;/*distribuye vert u hori dependiendo del valor de flex-direction*/
+    align-items:center;
+    flex-wrap: wrap;/*envolver los elementos en contenedor padre*/
+    align-content: space-between;
+ 
+ }
+
+
+
+
